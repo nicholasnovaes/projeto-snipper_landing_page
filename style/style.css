@@ -50,7 +50,7 @@ p{
     display: none;
 }
 
-.none{
+.search{
     display: none;
 }
 
@@ -100,6 +100,69 @@ footer img{
     text-decoration: none;
     color: #383737;
     margin-top: 0.3em;
+}
+
+@media screen and (min-width:728px){
+    
+    .back-header{
+        padding: 1em 2em 0;
+    }
+    
+    .menu-hamb{
+        display:none
+    }
+
+    .search{
+        display: block;
+        align-self: center;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+
+    #menu{
+        display: flex;
+    }
+    
+    .menu-list{
+        display: flex;
+        align-items: baseline;
+        
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-list li{
+        width: 10em;
+        padding: 0.5em;
+    }
+
+    .header-btn{
+        font-size: 1em;
+    }
+
+    .btn-body{
+        width: auto;
+        padding: 1em;
+    }
+
+    article{
+        padding: 2em;
+    }
+
+    footer{
+        padding: 1em 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-links a{
+        padding: 0 1em;
+    }
 }
 
 
